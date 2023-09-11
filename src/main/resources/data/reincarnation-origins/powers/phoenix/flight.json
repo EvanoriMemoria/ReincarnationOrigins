@@ -1,0 +1,14 @@
+{
+  "type": "origins:multiple",
+  "elytra": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+  },
+  "flame_particle": {
+    "type": "origins:particle",
+    "particle": "minecraft:flame",
+    "frequency": 8
+  },
+  "name": "Flight",
+  "description": "You have wings!"
+}

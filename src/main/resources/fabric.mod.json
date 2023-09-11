@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "reincarnationorigins",
+    "version": "1.0.0",
+    "name": "ReincarnationOrigins",
+    "description": "Adds a new set of origins for the Reincarnation Modpack!",
+    "authors": [
+        "ChromexUnderscore"
+    ],
+    "contact": {
+        "homepage": "https://github.com/ChromexUnderscore/OriginsTweaks",
+        "issues": "https://github.com/ChromexUnderscore/OriginsTweaks/issues",
+        "discord": "https://discord.com/invite/Su7tqDmUTu"
+    },
+    "license": "MIT License",
+    "icon": "assets/ReincarnationOrigins/icon.png",
+    "environment": "*",
+    "depends": {
+        "origins": ">=1.6",
+        "pehkui": ">=3.3.3",
+        "minecraft": ">=1.19"
+    },
+    "breaks":{
+        "bot": "*",
+        "origins-minus": "*"
+    },
+    "custom": {
+        "modmenu": {
+            "parent": {
+                "id": "origins"
+            },
+            "update_checker": true
+        }
+    }
+}

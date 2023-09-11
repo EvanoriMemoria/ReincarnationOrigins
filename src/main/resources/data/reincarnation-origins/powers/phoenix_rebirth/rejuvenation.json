@@ -1,0 +1,42 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:resource",
+          "resource": "reincarnation-origins:phoenix_rebirth/sunlight_resource",
+          "comparison": "==",
+          "compare_to": 1440
+        },
+        "if_action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type":"origins:execute_command",
+              "command":"resource set @s reincarnation-origins:phoenix_rebirth/sunlight_resource 0"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "function reincarnation-origins:phoenix_rebirth/upgrade",
+              "permission_level": 4
+            },
+            {
+              "type": "origins:heal",
+              "amount": 6
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "playsound adaptedorigins:phoenix_call neutral @s ~ ~ ~ 1 1"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "name": "Rejuvenation",
+  "description": "If you were in your Reborn Form, you will slowly return to Normal Form provided you are directly under the sun. Standing in the rain or in water will reduce progress towards Rejuvenating."
+}
