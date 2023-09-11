@@ -1,0 +1,28 @@
+{
+    "type":"origins:action_over_time",
+    "interval":100,
+    "entity_action":{
+      "type":"origins:feed",
+      "food":0.5,
+      "saturation":0.5,
+      "condition":{
+        "type":"origins:and",
+        "conditions":[
+          {
+            "type":"origins:equipped_item",
+            "equipment_slot":"offhand",
+            "item_condition":{
+              "item":"minecraft:enchanted_book"
+            }
+          },
+          {
+            "type":"origins:food_level",
+            "comparison":"<",
+            "compare_to":20
+          }
+        ]
+      }
+    },
+  "name": "Taste for Magic",
+  "description": "While holding an enchanted book in your offhand you slowly gain food."
+}

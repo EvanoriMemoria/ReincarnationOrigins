@@ -5,5 +5,7 @@
 		"operation":"addition",
 		"value":-6
 	},
-	"update_health":true
+	"update_health":true,
+	"name": "Fragile Bones",
+	"description": "You have three less hearts."
 }

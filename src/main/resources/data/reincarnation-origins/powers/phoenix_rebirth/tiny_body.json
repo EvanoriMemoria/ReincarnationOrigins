@@ -14,5 +14,7 @@
 			"type":"origins:execute_command",
 			"command":"scale reset"
 		}
-	}
+	},
+	"name": "Tiny Body",
+    "description": "You are very small."
 }

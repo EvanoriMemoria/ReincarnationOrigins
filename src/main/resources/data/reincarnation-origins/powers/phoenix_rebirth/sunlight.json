@@ -50,5 +50,7 @@
         "type":"origins:execute_command",
         "command":"resource set @s reincarnation-origins:phoenix_rebirth/sunlight_resource 0"
       }
-    }
+    },
+    "name": "Sunlight",
+    "description": "While standing in the sun you gain progress toward Rejuvenating. Standing in Rain or Water will leech this progress."
   }

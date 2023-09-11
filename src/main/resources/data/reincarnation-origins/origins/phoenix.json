@@ -11,8 +11,10 @@
     "reincarnation-origins:phoenix/water_weakness",
     "reincarnation-origins:phoenix/small_body",
     "reincarnation-origins:phoenix/small_health",
+    "reincarnation-origins:phoenix/tasty_magic",
     "origins:more_kinetic_damage",
-    "origins:fire_immunity"
+    "origins:fire_immunity",
+    "origins:water_vulnerability"
   ],
   "icon": "minecraft:fire_coral_fan",
   "order": 0,

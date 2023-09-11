@@ -18,7 +18,7 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "playsound adaptedorigins:phoenix_call neutral @s ~ ~ ~ 1 1"
+          "command": "playsound reincarnation-origins:phoenix_call neutral @s ~ ~ ~ 1 1"
         },
         {
           "type": "origins:change_resource",

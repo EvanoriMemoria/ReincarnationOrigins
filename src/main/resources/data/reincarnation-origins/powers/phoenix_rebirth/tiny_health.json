@@ -5,5 +5,7 @@
 		"operation":"addition",
 		"value":-14
 	},
-	"update_health":true
+	"update_health":true,
+	"name": "Tiny Health",
+    "description": "Your health pool is very small."
 }

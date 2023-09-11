@@ -30,7 +30,7 @@
             },
             {
               "type": "origins:execute_command",
-              "command": "playsound adaptedorigins:phoenix_call neutral @s ~ ~ ~ 1 1"
+              "command": "playsound reincarnation-origins:phoenix_call neutral @s ~ ~ ~ 1 1"
             }
           ]
         }
@@ -38,5 +38,5 @@
     ]
   },
   "name": "Rejuvenation",
-  "description": "If you were in your Reborn Form, you will slowly return to Normal Form provided you are directly under the sun. Standing in the rain or in water will reduce progress towards Rejuvenating."
+  "description": "You will slowly return to your True Form provided you are directly under the sun. Standing in the rain or in water will reduce progress towards Rejuvenating."
 }

@@ -14,5 +14,7 @@
 			"type":"origins:execute_command",
 			"command":"scale reset"
 		}
-	}
+	},
+	"name": "Small Body",
+	"description": "You're a little smaller than Steve."
 }
