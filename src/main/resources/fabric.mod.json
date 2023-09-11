@@ -8,12 +8,12 @@
         "ChromexUnderscore"
     ],
     "contact": {
-        "homepage": "https://github.com/ChromexUnderscore/OriginsTweaks",
-        "issues": "https://github.com/ChromexUnderscore/OriginsTweaks/issues",
-        "discord": "https://discord.com/invite/Su7tqDmUTu"
+        "homepage": "https://github.com/EvanoriMemoria/ReincarnationOrigins",
+        "issues": "https://github.com/EvanoriMemoria/ReincarnationOrigins/issues",
+        "discord": "https://discord.com/invite/Yq7n97f"
     },
     "license": "MIT License",
-    "icon": "assets/ReincarnationOrigins/icon.png",
+    "icon": "assets/reincarnationorigins/icon.png",
     "environment": "*",
     "depends": {
         "origins": ">=1.6",
