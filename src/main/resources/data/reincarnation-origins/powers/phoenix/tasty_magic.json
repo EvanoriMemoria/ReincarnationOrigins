@@ -3,8 +3,8 @@
     "interval":100,
     "entity_action":{
       "type":"origins:feed",
-      "food":0.5,
-      "saturation":0.5,
+      "food":1.0,
+      "saturation":1.0,
       "condition":{
         "type":"origins:and",
         "conditions":[
