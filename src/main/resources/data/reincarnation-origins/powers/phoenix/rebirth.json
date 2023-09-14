@@ -6,25 +6,17 @@
       "type": "origins:and",
       "actions": [
         {
-          "type": "origins:apply_effect",
-          "effect": {
-            "effect": "minecraft:absorption",
-            "duration": 1,
-            "amplifier": 2
-          }
-        },
-        {
           "type": "origins:execute_command",
           "command": "function reincarnation-origins:phoenix/downgrade",
           "permission_level": 4
         },
         {
           "type": "origins:heal",
-          "amount": 6
+          "amount": 10
         }
       ]
     }
   },
   "name": "Rebirth",
-  "description": "In your Normal Form, you have more health and can use Flight and Ascent. If you lose of your health, you shrink to your Reborn Form. This form is 1 block tall, can use Glide, and has low health. You return to Normal Form upon Rejuvenation or death."
+  "description": "Upon death, revert to your Rebirth Form in a fiery explosion."
 }
