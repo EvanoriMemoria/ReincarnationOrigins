@@ -16,6 +16,27 @@
           },
           {
             "type": "item",
+            "weight": 1,
+            "name": "minecraft:glow_berries",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Fools Gold",
+                    "color": "gold",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
             "weight": 20,
             "name": "minecraft:golden_carrot",
             "functions": [
@@ -51,7 +72,7 @@
           },
           {
             "type": "item",
-            "weight": 5,
+            "weight": 4,
             "name": "minecraft:gold_ingot",
             "functions": [
               {
