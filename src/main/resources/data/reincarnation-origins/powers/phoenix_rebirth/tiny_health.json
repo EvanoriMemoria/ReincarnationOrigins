@@ -7,5 +7,6 @@
 	},
 	"update_health":true,
 	"name": "Tiny Health",
-    "description": "Your health pool is very small."
+    "description": "You're just a little guy. You're one block tall and you only have five hearts.",
+	"hidden": true
 }

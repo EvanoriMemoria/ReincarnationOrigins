@@ -7,5 +7,6 @@
 	},
 	"update_health":true,
 	"name": "Fragile Bones",
-	"description": "You have three less hearts."
+	"description": "You have just seven hearts.",
+	"hidden":true
 }

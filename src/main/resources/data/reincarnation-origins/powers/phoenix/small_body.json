@@ -15,6 +15,11 @@
 			"command":"scale reset"
 		}
 	},
+	"flaming": {
+		"type": "origins:particle",
+  		"particle": "minecraft:flame",
+  		"frequency": 8
+	},
 	"name": "Small Body",
-	"description": "You're a little smaller than Steve."
+	"description": "You're a little smaller than your average Steve. You only have seven hearts"
 }

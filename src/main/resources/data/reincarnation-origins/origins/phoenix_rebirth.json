@@ -15,7 +15,7 @@
   ],
   "icon": "minecraft:fire_coral_fan",
   "impact": 3,
-  "name": "Phoenix Rebirth",
-  "description": "The smaller alternate to the phoenix. This form is more fragile but more resilient to water. Sit in the sun to return to your true form.",
+  "name": "Phoenix: Rebirth Form",
+  "description": "The smaller alternate form of the Phoenix. This form is more fragile but more resilient to water. Sit in the sun to return to your True Form.",
   "unchoosable":true
 }
