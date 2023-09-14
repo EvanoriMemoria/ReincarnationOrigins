@@ -1,0 +1,83 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 1,
+            "name": "minecraft:golden_apple",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 20,
+            "name": "minecraft:golden_carrot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "text": "Tasty Treat!",
+                    "color": "gold",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 60,
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 9
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 5,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 14,
+            "name": "minecraft:raw_gold",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

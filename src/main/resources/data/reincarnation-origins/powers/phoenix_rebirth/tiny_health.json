@@ -3,7 +3,7 @@
 	"modifier":{
 		"attribute":"minecraft:generic.max_health",
 		"operation":"addition",
-		"value":-14
+		"value":-10
 	},
 	"update_health":true,
 	"name": "Tiny Health",

@@ -1,0 +1,22 @@
+{
+	"type":"origins:target_action_on_hit",
+	"entity_action":{
+		"type":"origins:if_else",
+		"condition":{
+			"type":"origins:health",
+			"comparison":"==",
+			"compare_to":0
+		},
+		"if_action":{
+			"type":"origins:chance",
+			"chance":0.10,
+			"action":{
+				"type":"origins:execute_command",
+				"command":"loot spawn ~ ~ ~ loot reincarnation-origins:glittering"
+			}
+		}
+	},
+	"cooldown":1,
+	"name": "Glittering",
+	"description": "You have a natural affinity for gold. You find more when killing mobs."
+}

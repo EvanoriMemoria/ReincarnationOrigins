@@ -6,7 +6,7 @@
     {
         "type": "origins:fire_projectile",
         "entity_type": "item",
-        "cooldown": 200,
+        "cooldown": 600,
         "hud_render":
         {
             "should_render": true,

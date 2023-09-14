@@ -9,11 +9,13 @@
     "reincarnation-origins:phoenix/helios_blessing",
     "reincarnation-origins:phoenix/tasty_magic",
     "reincarnation-origins:phoenix/golden_diet",
+    "reincarnation-origins:phoenix/glittering",
     "origins:more_kinetic_damage",
     "origins:fire_immunity"
   ],
   "icon": "minecraft:fire_coral_fan",
   "impact": 3,
   "name": "Phoenix Rebirth",
+  "description": "The smaller alternate to the phoenix. This form is more fragile but more resilient to water. Sit in the sun to return to your true form.",
   "unchoosable":true
 }
