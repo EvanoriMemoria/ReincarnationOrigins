@@ -1,11 +1,11 @@
 {
     "schemaVersion": 1,
     "id": "reincarnationorigins",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "name": "ReincarnationOrigins",
     "description": "Adds a new set of origins for the Reincarnation Modpack!",
     "authors": [
-        "ChromexUnderscore"
+        "fergenbergel"
     ],
     "contact": {
         "homepage": "https://github.com/EvanoriMemoria/ReincarnationOrigins",
@@ -18,7 +18,7 @@
     "depends": {
         "origins": ">=1.6",
         "pehkui": ">=3.3.3",
-        "minecraft": ">=1.19"
+        "minecraft": "1.19.2"
     },
     "breaks":{
         "bot": "*",
