@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_damage_taken",
+    "name": "Pierce Weakness",
+    "description": "Arrows are more easily able to pierce your carapace.",
+    "modifier": {
+        "name": "arrow",
+        "value": 1.20,
+        "operation": "multiply_base"
+    }
+}

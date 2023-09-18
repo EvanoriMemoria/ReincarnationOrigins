@@ -1,0 +1,11 @@
+{
+  "name": "Spider Kinship",
+    "description": "You and all nearby players become friends of the spiders.",
+    "hidden": false,
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function reincarnation-origins:broodmother/kinship"
+  }
+}

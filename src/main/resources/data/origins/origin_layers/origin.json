@@ -1,6 +1,7 @@
 {
     "replace": false,
     "origins": [
+        "reincarnation-origins:broodmother",
         "reincarnation-origins:phoenix",
         "reincarnation-origins:phoenix_rebirth"
     ]
