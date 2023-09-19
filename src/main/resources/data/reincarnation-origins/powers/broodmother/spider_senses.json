@@ -3,7 +3,7 @@
   "description": "enemies in webs aggro your minions",
   "hidden": true,
   "type": "origins:action_over_time",
-  "interval": 10,
+  "interval": 30,
   "entity_action": {
     "type": "origins:and",
     "actions": [
