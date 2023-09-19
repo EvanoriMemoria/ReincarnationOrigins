@@ -1,20 +1,13 @@
 {
-  "name": "All Legs",
-  "description": "You do less damage with ranged attacks.",
-  "hidden": false,
-  "type": "origins:modify_damage_dealt",
-  "interval": 2,
-  "condition": {
-    "type": "origins:using_item",
-    "item_condition": {
-      "type": "origins:ingredient",
-      "ingredient": {
-        "item": "reincarnation-origins:ranged_weapons"
-      }
-    }
-  },
-  "modifier":{
-		"operation":"multiply_total",
-		"value":0.5
-  }
+  "name": "Too Many Legs",
+  "description": "You do less damage in melee.",
+	"type":"origins:modify_damage_dealt",
+	"modifier":{
+		"operation":"multiply_base",
+		"value":-0.5
+	},
+	"damage_condition":{
+		"type":"origins:projectile",
+		"inverted":true
+	}
 }
