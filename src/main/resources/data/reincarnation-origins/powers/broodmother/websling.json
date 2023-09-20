@@ -1,6 +1,6 @@
 {
-  "name": "Websling",
-  "description": "Shoot a bundle of web at the target, commanding your children to attack!",
+  "name": "§6Websling",
+  "description": "Fire a bundle of web at the target, commanding your children to attack!",
   "hidden": false,
   "cooldown": 200,
   "key": "key.origins.primary_active",

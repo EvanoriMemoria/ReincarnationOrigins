@@ -15,7 +15,8 @@
 		"reincarnation-origins:broodmother/spider_kinship",
 		"reincarnation-origins:broodmother/summon_the_army",
 		"reincarnation-origins:broodmother/websling",
-		"reincarnation-origins:broodmother/spider_senses"
+		"reincarnation-origins:broodmother/spider_senses",
+		"reincarnation-origins:broodmother/arachnid_armor"
 	],
 	"icon":"minecraft:spider_eye",
 	"impact":3,

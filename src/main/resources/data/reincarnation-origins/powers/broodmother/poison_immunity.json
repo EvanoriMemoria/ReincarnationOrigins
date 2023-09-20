@@ -1,5 +1,5 @@
 {
-	"name": "Poison Immunity",
+	"name": "§2Poison Immunity",
     "description": "You are immune to poison.",
     "hidden": false,
 	"type":"origins:effect_immunity",

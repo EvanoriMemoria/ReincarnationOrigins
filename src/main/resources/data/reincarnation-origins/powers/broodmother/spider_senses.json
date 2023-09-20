@@ -1,5 +1,5 @@
 {
-  "name": "aggro",
+  "name": "Web Aggro",
   "description": "enemies in webs aggro your minions",
   "hidden": true,
   "type": "origins:action_over_time",

@@ -1,5 +1,5 @@
 {
-	"name": "Poison Touch",
+	"name": "§2Poison Touch",
     "description": "You poison enemies you hit",
     "hidden": false,
 	"type":"origins:target_action_on_hit",

@@ -1,5 +1,5 @@
 {
-	"name": "Entrapment",
+	"name": "§6Entrapment",
     "description": "Cover nearby enemies in cobwebs.",
     "hidden": false,
 	"type":"origins:active_self",
@@ -7,7 +7,7 @@
 		"type":"origins:execute_command",
 		"command":"function reincarnation-origins:broodmother/cobweb"
 	},
-	"cooldown":1200,
+	"cooldown":600,
 	"hud_render":{
 		"sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png",
 		"bar_index":0
