@@ -4,7 +4,7 @@
   "type": "origins:multiple",
   "army": {
     "type": "origins:active_self",
-    "cooldown": 600,
+    "cooldown": 300,
     "key": "key.origins.secondary_active",
     "entity_action": {
       "type": "origins:execute_command",
