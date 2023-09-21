@@ -1,5 +1,5 @@
 {
-  "name": "§2Spider Kinship",
+  "name": "Spider Kinship",
     "description": "You and all nearby players become friends of the spiders. \n§4Your Children are hungry, without your presence they will revert to their primal instincts.",
     "hidden": false,
   "type": "origins:action_over_time",

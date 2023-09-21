@@ -1,5 +1,5 @@
 {
-  "name": "§2Too Many Legs",
+  "name": "Too Many Legs",
   "description": "You do less damage in melee.",
 	"type":"origins:modify_damage_dealt",
 	"modifier":{

@@ -1,6 +1,6 @@
 {
-	"name": "§6Entrapment",
-    "description": "Cover nearby enemies in cobwebs.",
+	"name": "Entrapment",
+    "description": "Briefly cover nearby enemies in cobwebs.",
     "hidden": false,
 	"type":"origins:active_self",
 	"entity_action":{
