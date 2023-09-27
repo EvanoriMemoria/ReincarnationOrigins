@@ -33,10 +33,6 @@
           },
           {
             "type": "origins:execute_command",
-            "command": "execute if entity @s[tag=!carn.brood,type=!player] run tag @s add carn.enemy"
-          },
-          {
-            "type": "origins:execute_command",
             "command": "power grant @s reincarnation-origins:broodmother/aggro"
           }
         ]
