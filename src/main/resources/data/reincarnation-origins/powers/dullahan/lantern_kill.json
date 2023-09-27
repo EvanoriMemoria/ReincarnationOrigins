@@ -1,4 +1,7 @@
 {
+  "name": "Soul Lantern on Kill",
+	"description": "Gain soul lanterns on kill when you have a lantern in your offhand.",
+  "hidden": true,
   "type": "origins:self_action_on_kill",
   "entity_action": {
     "type": "origins:and",
@@ -22,6 +25,5 @@
         "item": "minecraft:lantern"
       }
     }
-  },
-  "hidden": true
+  }
 }

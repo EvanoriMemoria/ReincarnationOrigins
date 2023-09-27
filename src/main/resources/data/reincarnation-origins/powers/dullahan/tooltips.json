@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "type": "origins:multiple",
   "lantern": {
     "type": "origins:tooltip",
@@ -38,6 +39,5 @@
       "text": "A place of respite for the Dullahan.",
       "color": "aqua"
     }
-  },
-  "hidden": true
+  }
 }

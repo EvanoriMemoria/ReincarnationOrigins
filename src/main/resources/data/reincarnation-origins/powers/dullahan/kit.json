@@ -5,12 +5,12 @@
   "stacks": [
     {
       "item": "minecraft:crossbow",
-      "tag": "{Damage:375,display:{Name:'[{\"text\":\"Soulsplitter\",\"italic\":false,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"A weapon familiar to you from a previous life.\"}]','[{\"text\":\"The stock is warped and worn,\",\"italic\":true}]','[{\"text\":\"with the carvings previously\",\"italic\":true}]','[{\"text\":\"adorning it no longer discernable.\",\"italic\":true}]']}}",
+      "tag": "{Damage:375,display:{Name:'[{\"text\":\"Soulsplitter\",\"italic\":false,\"underlined\":true,\"color\":\"aqua\"}]',Lore:['[{\"text\":\"A weapon familiar to you from a\",\"italic\":true,\"color\":\"#ff9933\"}]','[{\"text\":\"previous life.\",\"italic\":true,\"color\":\"#ff9933\"}]','[{\"text\":\"The stock is warped and worn with\",\"italic\":true,\"color\":\"#ff9933\"}]','[{\"text\":\"an adornment of indiscernable\",\"italic\":true,\"color\":\"#ff9933\"}]','[{\"text\":\"inscriptions\",\"italic\":true,\"color\":\"#ff9933\"},{\"text\":\".\",\"italic\":false}]']},Enchantments:[{id:vanishing_curse,lvl:1},{id:quick_charge,lvl:3},{id:unbreaking,lvl:1}],HideFlags:1}",
       "amount": 1
     },
     {
       "item": "minecraft:arrow",
-      "amount": 16
+      "amount": 32
     },
     {
       "item": "minecraft:lantern",

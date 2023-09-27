@@ -1,4 +1,6 @@
 {
+  "name": "\u00A7b\u00A7nSoul Devourer",
+  "description": "Food does not satiate your wretched form. Instead, the Dullahan feeds on the \u00A7bsouls \u00A7rof their victims captured in \u00A7bsoul lanterns.\nThe lanterns rarely make it out intact.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:and",
@@ -49,7 +51,5 @@
         "item": "minecraft:soul_lantern"
       }
     }
-  },
-  "name": "\u00A7b\u00A7nSoul Devourer",
-  "description": "Food does not satiate your wretched form. Instead, the Dullahan feeds on the \u00A7bsouls \u00A7rof their victims captured in \u00A7bsoul lanterns."
+  }
 }

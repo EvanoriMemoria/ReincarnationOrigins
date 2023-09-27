@@ -1,4 +1,6 @@
 {
+  "name": "Soul Bind",
+  "description": "Being attack with any weapon imbued with a curse of vanishing will instantly banish you, ending your hunt.",
   "type": "origins:modify_damage_taken",
   "damage_condition": {
     "type": "origins:attacker",
@@ -22,7 +24,5 @@
     "name": "Weak to cursed items",
     "operation": "addition",
     "value": 200
-  },
-  "name": "Cursed",
-  "description": "Being attack with any weapon imbued with a curse of vanishing will banish you, ending your hunt."
+  }
 }
