@@ -5,7 +5,7 @@
 		"actions": [
 		{
 			"type": "origins:execute_command",
-			"command": "item replace entity @s armor.head with adaptedorigins:soul_pumpkin{display:{Name:'[{\"text\":\"Head of the Horseman\",\"italic\":false}]',Lore:['[{\"text\":\"The grim countenance of the dullahan.\",\"italic\":false}]','[{\"text\":\"In legend, the dullahan wields its severed head like a lantern.\",\"italic\":false}]']},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1},{id:protection,lvl:1}],HideFlags:1}",
+			"command": "item replace entity @s armor.head with minecraft:carved_pumpkin{display:{Name:'[{\"text\":\"Head of the Horseman\",\"italic\":false}]',Lore:['[{\"text\":\"The grim countenance of the dullahan.\",\"italic\":false}]','[{\"text\":\"In legend, the dullahan wields its severed head like a lantern.\",\"italic\":false}]']},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1},{id:protection,lvl:1}],HideFlags:1}",
 			"permission_level": 4
 		}
 	]
@@ -15,7 +15,7 @@
 		"actions": [
 			{
 				"type": "origins:execute_command",
-				"command": "item replace entity @s armor.head with adaptedorigins:soul_pumpkin{display:{Name:'[{\"text\":\"Head of the Horseman\",\"italic\":false}]',Lore:['[{\"text\":\"The grim countenance of the dullahan.\",\"italic\":false}]','[{\"text\":\"In legend, the dullahan wields its severed head like a lantern.\",\"italic\":false}]']},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1},{id:protection,lvl:1}],HideFlags:1}",
+				"command": "item replace entity @s armor.head with minecraft:carved_pumpkin{display:{Name:'[{\"text\":\"Head of the Horseman\",\"italic\":false}]',Lore:['[{\"text\":\"The grim countenance of the dullahan.\",\"italic\":false}]','[{\"text\":\"In legend, the dullahan wields its severed head like a lantern.\",\"italic\":false}]']},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1},{id:protection,lvl:1}],HideFlags:1}",
 				"permission_level": 4
 			}
 		]
@@ -25,7 +25,7 @@
 		"actions": [
 		{
 			"type": "origins:execute_command",
-			"command": "item replace entity @s armor.head with adaptedorigins:soul_pumpkin{display:{Name:'[{\"text\":\"Head of the Horseman\",\"italic\":false}]',Lore:['[{\"text\":\"The grim countenance of the dullahan.\",\"italic\":false}]','[{\"text\":\"In legend, the dullahan wields its severed head like a lantern.\",\"italic\":false}]']},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1},{id:protection,lvl:1}],HideFlags:1}",
+			"command": "item replace entity @s armor.head with minecraft:carved_pumpkin{display:{Name:'[{\"text\":\"Head of the Horseman\",\"italic\":false}]',Lore:['[{\"text\":\"The grim countenance of the dullahan.\",\"italic\":false}]','[{\"text\":\"In legend, the dullahan wields its severed head like a lantern.\",\"italic\":false}]']},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1},{id:protection,lvl:1}],HideFlags:1}",
 			"permission_level": 4
 		}
 	]
@@ -42,5 +42,5 @@
 	},
 	"execute_chosen_when_orb": true,
 	"name": "Horseman's Countenance",
-	"description": "Your head is a hollow pumpkin illuminated by a cold blue flame. Its size hinders your ability to wear helmets."
+	"description": "Your head is a hollow pumpkin. Its size hinders your ability to wear helmets."
 }

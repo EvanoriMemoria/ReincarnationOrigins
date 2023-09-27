@@ -1,6 +1,6 @@
 {
     "name": "Spectre's Dismay",
-    "description": "Shoot an explosive wither skull projectile at your prey.",
+    "description": "Shoot an explosive wither skull at your prey.",
     "loading_priority": 10,
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:wither_skull",
