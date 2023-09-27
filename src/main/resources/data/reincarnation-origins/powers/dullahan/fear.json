@@ -15,11 +15,11 @@
     ]
   },
   "condition": {
-  "type": "origins:command",
-  "command": "execute if entity @e[distance=5.1..1]",
-  "comparison": ">",
-  "compare_to": 0
-},
+    "type": "origins:command",
+    "command": "execute if entity @e[distance=5.1..1]",
+    "comparison": ">",
+    "compare_to": 0
+  },
   "name": "Cower, Run",
   "description": "You have a terrifying presence. Nearby entities become afflicted with blindness and weakness."
 }

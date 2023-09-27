@@ -1,2 +1,2 @@
-scoreboard objectives remove nightmareID
+scoreboard objectives remove carn.nightmareID
 function reincarnation-origins:dullahan/load
