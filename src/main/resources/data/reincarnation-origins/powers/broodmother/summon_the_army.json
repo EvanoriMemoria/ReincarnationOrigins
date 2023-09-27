@@ -30,12 +30,12 @@
         {
           "inverted": true,
           "type": "origins:nbt",
-          "nbt": "{Tags:[brood]}"
+          "nbt": "{Tags:[carn.brood]}"
         },
         {
           "inverted": true,
           "type": "origins:nbt",
-          "nbt": "{Tags:[enemy]}"
+          "nbt": "{Tags:[carn.enemy]}"
         }
       ]
     },
@@ -47,7 +47,7 @@
         "actions": [
           {
             "type": "origins:execute_command",
-            "command": "execute if entity @s[tag=!brood, type=!player] run tag @s add enemy"
+            "command": "execute if entity @s[tag=!carn.brood, type=!player] run tag @s add carn.enemy"
           },
           {
             "type": "origins:execute_command",
