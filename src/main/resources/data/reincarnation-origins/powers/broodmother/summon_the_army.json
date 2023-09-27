@@ -47,7 +47,7 @@
         "actions": [
           {
             "type": "origins:execute_command",
-            "command": "execute if entity @s[tag=!brood] run tag @s add enemy"
+            "command": "execute if entity @s[tag=!brood, type=!player] run tag @s add enemy"
           },
           {
             "type": "origins:execute_command",
@@ -68,7 +68,7 @@
       "actions": [
         {
           "type": "origins:execute_command",
-          "command": "execute if entity @s[tag=!brood] run tag @s add enemy"
+          "command": "execute if entity @s[tag=!brood, type=!player] run tag @s add enemy"
         },
         {
           "type": "origins:execute_command",
@@ -97,17 +97,17 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "kill @e[tag=brood]"
+          "command": "function reincarnation-origins:broodmother/kill_brood"
         }
       ]
     },
     "entity_action_removed": {
       "type": "origins:execute_command",
-      "command": "kill @e[tag=brood]"
+      "command": "function reincarnation-origins:broodmother/kill_brood"
     },
     "entity_action_respawned": {
       "type": "origins:execute_command",
-      "command": "kill @e[tag=brood]"
+      "command": "function reincarnation-origins:broodmother/kill_brood"
     }
   }
 }

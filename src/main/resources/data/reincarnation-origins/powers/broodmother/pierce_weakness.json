@@ -4,7 +4,7 @@
     "type": "origins:modify_damage_taken",
     "modifier": {
         "name": "arrow",
-        "value": 0.40,
+        "value": 0.20,
         "operation": "multiply_base"
     }
 }

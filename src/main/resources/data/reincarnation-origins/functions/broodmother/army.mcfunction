@@ -13,3 +13,5 @@ scoreboard players operation @s broodID += broodCounter broodID
 scoreboard players operation @e[tag=brood,tag=temp,limit=4] broodID += broodCounter broodID
 execute as @e[type=minecraft:cave_spider,tag=temp,tag=brood,tag=summon,limit=4] if score @s broodID = broodCounter broodID run tag @s remove temp
 execute as @e[type=minecraft:cave_spider,tag=brood,tag=summon,limit=1] if score @s broodID = broodCounter broodID run scoreboard players add broodCounter broodID 1
+
+execute as @e[type=minecraft:cave_spider,tag=brood,tag=summon,limit=4] run power grant @s reincarnation-origins:broodmother/spider_minion_powers
