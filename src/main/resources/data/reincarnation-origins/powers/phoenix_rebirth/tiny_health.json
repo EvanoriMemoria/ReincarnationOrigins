@@ -1,12 +1,12 @@
 {
-	"type":"origins:attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.max_health",
-		"operation":"addition",
-		"value":-10
-	},
-	"update_health":true,
-	"name": "Tiny Health",
-    "description": "You're just a little guy. You're one block tall and you only have five hearts.",
-	"hidden": true
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "addition",
+    "value": -10
+  },
+  "update_health": true,
+  "name": "Tiny Health",
+  "description": "You're just a little guy. You're one block tall and you only have five hearts.",
+  "hidden": true
 }

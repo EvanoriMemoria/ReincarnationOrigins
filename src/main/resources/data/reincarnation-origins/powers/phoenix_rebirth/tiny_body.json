@@ -1,20 +1,20 @@
 {
-	"type":"origins:multiple",
-	"scale":{
-		"type":"origins:action_over_time",
-		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"function reincarnation-origins:phoenix_rebirth/size"
-		},
-		"interval":20
-	},
-	"reset":{
-		"type":"origins:action_on_callback",
-		"entity_action_lost":{
-			"type":"origins:execute_command",
-			"command":"scale reset"
-		}
-	},
-	"name": "Tiny Body",
-    "description": "You're just a little guy. You're one block tall and you only have five hearts."
+  "type": "origins:multiple",
+  "scale": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function reincarnation-origins:phoenix_rebirth/size"
+    },
+    "interval": 20
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "scale reset"
+    }
+  },
+  "name": "Tiny Body",
+  "description": "You're just a little guy. You're one block tall and you only have five hearts."
 }

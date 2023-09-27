@@ -16,8 +16,8 @@
           "type": "origins:and",
           "actions": [
             {
-              "type":"origins:execute_command",
-              "command":"resource set @s reincarnation-origins:phoenix_rebirth/sunlight_resource 0"
+              "type": "origins:execute_command",
+              "command": "resource set @s reincarnation-origins:phoenix_rebirth/sunlight_resource 0"
             },
             {
               "type": "origins:execute_command",

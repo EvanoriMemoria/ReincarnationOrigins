@@ -1,26 +1,26 @@
 {
-  "type":"origins:multiple",
+  "type": "origins:multiple",
   "only_gold": {
-    "type":"origins:prevent_item_use",
-    "item_condition":{
-      "type":"origins:and",
-      "conditions":[
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
         {
-          "type":"origins:ingredient",
-          "inverted":true,
-          "ingredient":{
-            "tag":"reincarnation-origins:golden_foods"
+          "type": "origins:ingredient",
+          "inverted": true,
+          "ingredient": {
+            "tag": "reincarnation-origins:golden_foods"
           }
         },
         {
-          "type":"origins:food"
+          "type": "origins:food"
         },
         {
-          "type":"origins:ingredient",
-          "ingredient":{
-            "tag":"origins:ignore_diet"
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ignore_diet"
           },
-          "inverted":true
+          "inverted": true
         }
       ]
     }
