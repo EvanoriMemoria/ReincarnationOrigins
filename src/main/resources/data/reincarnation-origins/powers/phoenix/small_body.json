@@ -1,4 +1,6 @@
 {
+  "name": "Small Body",
+  "description": "You're a little smaller than your average Steve. You only have seven hearts",
   "type": "origins:multiple",
   "scale": {
     "type": "origins:action_over_time",
@@ -19,7 +21,5 @@
     "type": "origins:particle",
     "particle": "minecraft:flame",
     "frequency": 8
-  },
-  "name": "Small Body",
-  "description": "You're a little smaller than your average Steve. You only have seven hearts"
+  }
 }

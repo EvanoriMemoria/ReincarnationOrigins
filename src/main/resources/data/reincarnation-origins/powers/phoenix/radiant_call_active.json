@@ -1,4 +1,6 @@
 {
+  "name": "Radiant Call",
+  "description": "Fully heals every player and mob within a 12 block radius. Triggers automatically every 2 minutes. Damages Undead.",
   "type": "origins:active_self",
   "entity_action": {
     "type": "origins:execute_command",
@@ -12,7 +14,5 @@
   },
   "key": {
     "key": "key.origins.secondary_active"
-  },
-  "name": "Radiant Call",
-  "description": "Fully heals every player and mob within a 12 block radius. Triggers automatically every 2 minutes. Damages Undead."
+  }
 }

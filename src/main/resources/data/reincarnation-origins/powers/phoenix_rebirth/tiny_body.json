@@ -1,4 +1,6 @@
 {
+  "name": "Tiny Body",
+  "description": "You're just a little guy. You're one block tall and you only have five hearts.",
   "type": "origins:multiple",
   "scale": {
     "type": "origins:action_over_time",
@@ -14,7 +16,5 @@
       "type": "origins:execute_command",
       "command": "scale reset"
     }
-  },
-  "name": "Tiny Body",
-  "description": "You're just a little guy. You're one block tall and you only have five hearts."
+  }
 }

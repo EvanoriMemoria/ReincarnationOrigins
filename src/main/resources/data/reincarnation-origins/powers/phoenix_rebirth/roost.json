@@ -1,4 +1,6 @@
 {
+  "name": "Roost",
+  "description": "While sneaking and not moving, you will gain progress towards Rejuvenating, regardless of there being sunlight or not.",
   "type": "origins:action_over_time",
   "entity_action": {
     "type": "origins:change_resource",
@@ -17,7 +19,5 @@
         "inverted": true
       }
     ]
-  },
-  "name": "Roost",
-  "description": "While sneaking and not moving, you will gain progress towards Rejuvenating, regardless of there being sunlight or not."
+  }
 }

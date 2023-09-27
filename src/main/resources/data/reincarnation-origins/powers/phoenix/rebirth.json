@@ -1,4 +1,6 @@
 {
+  "name": "Rebirth",
+  "description": "Upon death, revert to your Rebirth Form in a fiery explosion.",
   "type": "origins:multiple",
   "prevent_death": {
     "type": "origins:prevent_death",
@@ -16,7 +18,5 @@
         }
       ]
     }
-  },
-  "name": "Rebirth",
-  "description": "Upon death, revert to your Rebirth Form in a fiery explosion."
+  }
 }

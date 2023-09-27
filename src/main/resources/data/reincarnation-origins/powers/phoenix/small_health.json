@@ -1,12 +1,12 @@
 {
+  "name": "Fragile Bones",
+  "description": "You have just seven hearts.",
+  "hidden": true,
   "type": "origins:attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
     "operation": "addition",
     "value": -6
   },
-  "update_health": true,
-  "name": "Fragile Bones",
-  "description": "You have just seven hearts.",
-  "hidden": true
+  "update_health": true
 }

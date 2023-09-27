@@ -1,4 +1,6 @@
 {
+  "name": "Taste for Magic",
+  "description": "While holding an enchanted book in your offhand you slowly gain food. Crouch and stay still to ponder the book, gaining additional sustenance.",
   "type": "origins:multiple",
   "passive_nourishment": {
     "type": "origins:action_over_time",
@@ -57,7 +59,5 @@
         }
       ]
     }
-  },
-  "name": "Taste for Magic",
-  "description": "While holding an enchanted book in your offhand you slowly gain food. Crouch and stay still to ponder the book, gaining additional sustenance."
+  }
 }

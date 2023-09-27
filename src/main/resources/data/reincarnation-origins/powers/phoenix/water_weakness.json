@@ -1,9 +1,9 @@
 {
+  "name": "Water Weakness",
+  "description": "Water slows you down.",
   "type": "origins:modify_swim_speed",
   "modifier": {
     "operation": "multiply_base",
     "value": -0.25
-  },
-  "name": "Water Weakness",
-  "description": "Water slows you down."
+  }
 }

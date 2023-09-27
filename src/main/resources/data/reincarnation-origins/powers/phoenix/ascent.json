@@ -1,4 +1,6 @@
 {
+  "name": "Ascent",
+  "description": "You are able to launch yourself into the air.",
   "type": "origins:launch",
   "cooldown": 500,
   "hud_render": {
@@ -9,7 +11,5 @@
   "key": {
     "key": "key.origins.primary_active",
     "continuous": true
-  },
-  "name": "Ascent",
-  "description": "You are able to launch yourself into the air."
+  }
 }

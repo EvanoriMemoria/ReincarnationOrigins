@@ -1,4 +1,6 @@
 {
+  "name": "Rejuvenation",
+  "description": "You will slowly return to your True Form provided you are directly under the sun. Standing in the rain or in water will reduce progress towards Rejuvenating.",
   "type": "origins:action_over_time",
   "interval": 20,
   "entity_action": {
@@ -36,7 +38,5 @@
         }
       }
     ]
-  },
-  "name": "Rejuvenation",
-  "description": "You will slowly return to your True Form provided you are directly under the sun. Standing in the rain or in water will reduce progress towards Rejuvenating."
+  }
 }
