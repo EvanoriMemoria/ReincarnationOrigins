@@ -15,14 +15,6 @@
       "bar_index": 17
     }
   },
-  "tick": {
-    "type": "origins:action_over_time",
-    "interval": 1,
-    "entity_action": {
-      "type": "origins:execute_command",
-      "command": "function reincarnation-origins:broodmother/tick"
-    }
-  },
   "onhit": {
     "condition": {
       "inverted": true,
@@ -56,8 +48,7 @@
   "callback": {
     "type": "origins:action_on_callback",
     "entity_action_chosen": {
-      "type": "origins:execute_command",
-      "command": "function reincarnation-origins:broodmother/load"
+      "type": "origins:nothing"
     },
     "execute_chosen_when_orb": true,
     "entity_action_lost": {
