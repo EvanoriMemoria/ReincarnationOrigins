@@ -1,0 +1,5 @@
+{
+	"name": "Resupply",
+	"description": "Your minions will automatically pick up items on the ground to use as gear.",
+	"type":"origins:simple"
+}
