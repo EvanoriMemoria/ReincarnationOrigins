@@ -1,6 +1,4 @@
 {
-	"name": "Relocation",
-	"description": "[Sneak + Left-Click] a minion to turn it into a Petrified Heart again.",
 	"type":"origins:target_action_on_hit",
 	"entity_action":{
 		"type":"origins:execute_command",

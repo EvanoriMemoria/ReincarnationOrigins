@@ -1,6 +1,4 @@
 {
-	"name": "Power Siphon",
-	"desription": "When at least 2 minions are nearby, they will sacrifice themselves to protect you from a fatal hit, dying to do so.",	
 	"type":"origins:prevent_death",
 	"entity_action":{
 		"type":"origins:and",

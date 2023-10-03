@@ -1,6 +1,4 @@
 {
-	"name": "Wrong Class",
-	"description": "You barely deal any damage with swords and axes.",
 	"type":"origins:modify_damage_dealt",
 	"modifier":{
 		"operation":"multiply_total",

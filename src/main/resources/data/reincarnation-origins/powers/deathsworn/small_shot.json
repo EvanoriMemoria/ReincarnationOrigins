@@ -1,6 +1,4 @@
 {
-	"name": "Submit!",
-	"description": "[Save Toolbar Activator] You can fire a ray of dark energy at will to deal light magic damage. The damage increases as your expertise in necromancy increases.",
 	"type":"origins:active_self",
 	"entity_action":{
 		"type":"origins:raycast",

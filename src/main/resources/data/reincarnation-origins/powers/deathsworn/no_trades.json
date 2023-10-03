@@ -1,6 +1,4 @@
 {
-	"name": "Stains of the Occult",
-	"description": "Villagers refuse to trade with you.",
 	"type":"origins:prevent_entity_use",
 	"bientity_action":{
 		"type":"origins:actor_action",

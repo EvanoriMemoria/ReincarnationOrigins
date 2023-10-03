@@ -1,6 +1,4 @@
 {
-	"name": "Cursed Nights",
-	"description": "Your SOUL bar regenerates slowly at night.",
 	"type":"origins:action_over_time",
 	"entity_action":{
 		"type":"origins:change_resource",

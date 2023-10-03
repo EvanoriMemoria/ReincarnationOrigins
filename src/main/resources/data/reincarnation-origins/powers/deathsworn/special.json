@@ -1,6 +1,4 @@
 {
-	"name": "Unleash Potential",
-	"desription": "Sacrifice your vitality to unleash a special ability of all your minions within 8 blocks. You will receive a book detailing each. Requires your SOUL to be higher than 50%, but doesn't consume SOUL.",
 	"type":"origins:active_self",
 	"entity_action":{
 		"type":"origins:execute_command",
