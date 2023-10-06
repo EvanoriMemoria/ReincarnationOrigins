@@ -11,7 +11,7 @@ playsound entity.spider.ambient player @s
 scoreboard objectives add carn.broodID dummy
 scoreboard players operation @s carn.broodID += carn.broodCounter carn.broodID
 scoreboard players operation @e[tag=carn.brood,tag=carn.temp,limit=3] carn.broodID += carn.broodCounter carn.broodID
-execute as @e[type=minecraft:cave_spider,tag=carn.temp,tag=carn.brood,tag=carn.summon,limit=3] if score @s carn.broodID = carn.broodCounter carn.broodID run tag @s remove temp
+execute as @e[type=minecraft:cave_spider,tag=carn.temp,tag=carn.brood,tag=carn.summon,limit=3] if score @s carn.broodID = carn.broodCounter carn.broodID run tag @s remove carn.temp
 execute as @e[type=minecraft:cave_spider,tag=carn.brood,tag=carn.summon,limit=1] if score @s carn.broodID = carn.broodCounter carn.broodID run scoreboard players add carn.broodCounter carn.broodID 1
 
 execute as @e[type=minecraft:cave_spider,tag=carn.brood,tag=carn.summon,limit=3] run power grant @s reincarnation-origins:broodmother/spider_minion_powers
