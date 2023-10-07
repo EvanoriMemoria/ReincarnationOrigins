@@ -2,7 +2,7 @@
   "name": "Come Children!",
   "description": "You have three wonderful children who will help you fight. They're not the smartest bunch, but you love them anyway. \n§5Activate to recall them to your position.",
   "type": "origins:multiple",
-  "army": {
+  "summon_army": {
     "type": "origins:active_self",
     "cooldown": 300,
     "key": "key.origins.secondary_active",
@@ -10,9 +10,25 @@
       "type": "origins:execute_command",
       "command": "function reincarnation-origins:broodmother/army"
     },
+    "condition": {
+      "type": "origins:sneaking",
+      "inverted": true
+    },
     "hud_render": {
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
       "bar_index": 17
+    }
+  },
+  "dismiss_army": {
+    "type": "origins:active_self",
+    "cooldown": 1,
+    "key": "key.origins.secondary_active",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function reincarnation-origins:broodmother/kill_brood"
+    },
+    "condition": {
+      "type": "origins:sneaking"
     }
   },
   "onhit": {
