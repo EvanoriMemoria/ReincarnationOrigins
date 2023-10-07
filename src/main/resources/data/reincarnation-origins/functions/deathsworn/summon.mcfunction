@@ -51,3 +51,5 @@ execute as @e[tag=carn.temp,tag=Deathsworn_Minion,limit=1] run tag @s remove car
 
 # Add 1 to the deathsworn counter
 scoreboard players add carn.deathswornCounter carn.deathswornID 1
+
+execute as @e[tag=Deathsworn_Minion,limit=10] run power grant @s reincarnation-origins:deathsworn/minion/deathsworn_minion_powers
