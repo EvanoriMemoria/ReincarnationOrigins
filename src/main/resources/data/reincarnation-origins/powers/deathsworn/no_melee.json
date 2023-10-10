@@ -1,32 +1,14 @@
 {
-	"type":"origins:modify_damage_dealt",
-	"modifier":{
-		"operation":"multiply_total",
-		"value":-0.50
+	"name": "Too Many Legs",
+	"description": "You do less damage in melee.",
+	"type": "origins:modify_damage_dealt",
+	"modifier": {
+	  "operation": "multiply_base",
+	  "value": -0.5
 	},
-	"condition":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"reincarnation-origins:swords"
-					}
-				}
-			},
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"reincarnation-origins:axes"
-					}
-				}
-			}
-		]
+	"damage_condition": {
+	  "type": "origins:projectile",
+	  "inverted": true
 	}
-}
+  }
+  
