@@ -25,7 +25,7 @@
    },
    {
     "type":"origins:nbt",
-    "nbt":"{Tags:['Deathsworn_Minion']}",
+    "nbt":"{Tags:['carn.deathsworn_minion']}",
     "inverted":true
    }
   ]

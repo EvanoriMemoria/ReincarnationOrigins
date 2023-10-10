@@ -16,7 +16,7 @@
         "type": "origins:target_condition",
         "condition": {
           "type": "origins:nbt",
-          "nbt": "{Tags:['Deathsworn_Minion']}",
+          "nbt": "{Tags:['carn.deathsworn_minion']}",
           "inverted": true
         }
       },
@@ -33,7 +33,7 @@
     "condition": {
       "inverted": true,
       "type": "origins:nbt",
-      "nbt": "{Tags:['Deathsworn_Minion']}"
+      "nbt": "{Tags:['carn.deathsworn_minion']}"
     },
     "type": "origins:action_on_hit",
     "bientity_action": {
