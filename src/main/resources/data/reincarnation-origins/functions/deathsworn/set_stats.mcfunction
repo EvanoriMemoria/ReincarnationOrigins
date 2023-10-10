@@ -1,3 +1,3 @@
-execute store result score @s Minion_Armor run attribute @s generic.armor get
-execute store result score @s Minion_Attack_Damage run attribute @s generic.attack_damage get
-execute store result score @s Minion_Health run attribute @s generic.max_health get
+execute store result score @s carn.minion_armor run attribute @s generic.armor get
+execute store result score @s carn.minion_attack_damage run attribute @s generic.attack_damage get
+execute store result score @s carn.minion_health run attribute @s generic.max_health get

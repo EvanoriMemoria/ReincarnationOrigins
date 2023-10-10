@@ -1,6 +1,6 @@
-scoreboard objectives add Minion_Armor dummy
-scoreboard objectives add Minion_Attack_Damage dummy
-scoreboard objectives add Minion_Health dummy
+scoreboard objectives add carn.minion_armor dummy
+scoreboard objectives add carn.minion_attack_damage dummy
+scoreboard objectives add carn.minion_health dummy
 
 scoreboard objectives add carn.deathswornID dummy
 scoreboard players set carn.deathswornCounter carn.deathswornID 1
