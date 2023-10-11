@@ -1,7 +1,6 @@
 {
 	"values":[
 		"#minecraft:skeletons",
-		"minecraft:blaze",
         "minecraft:stray",
 		"minecraft:creeper",
 		"minecraft:drowned",
@@ -11,6 +10,5 @@
 		"minecraft:vindicator",
 		"minecraft:zombie",
 		"minecraft:zombified_piglin"
-	
 	]
 }
