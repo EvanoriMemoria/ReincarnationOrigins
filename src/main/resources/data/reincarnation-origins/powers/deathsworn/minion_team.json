@@ -6,6 +6,6 @@
   "interval": 20,
   "entity_action": {
     "type": "origins:execute_command",
-    "command": "function reincarnation-origins:deathsworn/kinship"
+    "command": "function reincarnation-origins:summons/summoner_kinship"
   }
 }

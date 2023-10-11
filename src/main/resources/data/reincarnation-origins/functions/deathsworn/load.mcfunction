@@ -5,4 +5,4 @@ scoreboard objectives add carn.minion_health dummy
 scoreboard objectives add carn.deathswornID dummy
 scoreboard players set carn.deathswornCounter carn.deathswornID 1
 
-team add deathsworn "Necromancers"
+team add carn.all_summoners_team
