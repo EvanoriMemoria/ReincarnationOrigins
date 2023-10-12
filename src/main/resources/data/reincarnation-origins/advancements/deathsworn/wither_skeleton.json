@@ -17,5 +17,5 @@
 			"trigger":"minecraft:impossible"
 		}
 	},
-	"parent":"reincarnation-origins:deathsworn/summon"
+	"parent":"reincarnation-origins:deathsworn/skeleton"
 }

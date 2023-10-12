@@ -16,6 +16,7 @@
 		"reincarnation-origins:deathsworn/stat_checker",
 		"reincarnation-origins:deathsworn/summon",
 		"reincarnation-origins:deathsworn/take_soul",
+		"reincarnation-origins:deathsworn/respec",
 		"reincarnation-origins:deathsworn/minion_team"
     ],
     "icon":"minecraft:nether_wart_block",

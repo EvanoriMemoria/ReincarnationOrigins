@@ -1,0 +1,33 @@
+{
+  "type": "origins:multiple",
+  "onhit": {
+    "condition": {
+      "inverted": true,
+      "type": "origins:nbt",
+      "nbt": "{Tags:['carn.deathsworn_minion']}"
+    },
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "power grant @s reincarnation-origins:deathsworn/one_off/draw_aggro"
+      }
+    },
+    "cooldown": 1,
+    "hud_render": {
+      "should_render": false
+    }
+  },
+  "whenhit": {
+    "type": "origins:attacker_action_when_hit",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "power grant @s reincarnation-origins:deathsworn/one_off/draw_aggro"
+    },
+    "cooldown": 1,
+    "hud_render": {
+      "should_render": false
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "origins:multiple",
+  "onhit": {
+    "condition": {
+      "inverted": true,
+      "type": "origins:nbt",
+      "nbt": "{Tags:['carn.deathsworn_minion']}"
+    },
+    "action": {
+      "type": "origins:action_on_hit",
+      "bientity_action": {
+          "type": "origins:add_velocity",
+          "z": -2
+      }
+    }
+  },
+  "whenhit": {
+      "type": "origins:attacker_action_when_hit",
+      "bientity_action": {
+          "type": "origins:add_velocity",
+          "z": 2
+      }
+  }
+}

@@ -14,7 +14,7 @@ summon minecraft:spider ~ ~0.5 ~ {CustomName:'[{"text":"Arnis"}]',Tags:["carn.br
 team join carn.all_summoners_team @e[tag=carn.brood]
 team join carn.all_summoners_team @s
 particle minecraft:dust 1 1 1 1 ~ ~ ~ 2 3 2 0.1 2000 force
-playsound item.totem.use player @s ~ ~ ~ 20
+playsound item.totem.use player @s ~ ~ ~ 10
 
 execute at @e[distance=1..15] run setblock ~ ~ ~ origins:temporary_cobweb keep
 execute at @e[distance=1..15] run particle minecraft:dust 1 1 1 1 ~ ~1 ~ 0.3 0 0.3 0.001 100 normal

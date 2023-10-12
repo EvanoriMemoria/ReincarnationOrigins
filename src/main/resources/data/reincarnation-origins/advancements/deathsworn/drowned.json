@@ -1,13 +1,13 @@
 {
 	"display":{
 		"title":{
-			"translate":"reincarnation-origins.advancements.immortal.name"
+			"translate":"reincarnation-origins.advancements.drowned.name"
 		},
 		"description":{
-			"translate":"reincarnation-origins.advancements.immortal.description"
+			"translate":"reincarnation-origins.advancements.drowned.description"
 		},
 		"icon":{
-			"item":"minecraft:totem_of_undying"
+			"item":"minecraft:trident"
 		},
 		"announce_to_chat":false,
 		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
@@ -17,5 +17,5 @@
 			"trigger":"minecraft:impossible"
 		}
 	},
-	"parent":"reincarnation-origins:deathsworn/summon"
+	"parent":"reincarnation-origins:deathsworn/zombie"
 }
