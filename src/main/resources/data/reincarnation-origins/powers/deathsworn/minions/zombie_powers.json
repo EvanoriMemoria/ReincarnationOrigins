@@ -1,0 +1,30 @@
+{
+  "type": "origins:attacker_action_when_hit",
+  "conditions": [
+    {
+      "inverted": true,
+      "type": "origins:in_tag",
+      "tag": "carn.deathsworn_minion"
+    },
+    {
+      "inverted": true,
+      "type": "origins:in_tag",
+      "tag": "carn.deathsworn"
+    },
+    {
+      "inverted": true,
+      "type": "origins:nbt",
+      "nbt": "{team:'carn.all_summoners_team'}"
+    }
+  ],
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "cramming.player",
+    "inverted": true
+  },
+  "entity_action": {
+    "type": "origins:add_velocity",
+    "z": 3,
+    "y": 4
+  }
+}
