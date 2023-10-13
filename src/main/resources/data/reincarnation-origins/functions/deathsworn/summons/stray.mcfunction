@@ -6,4 +6,4 @@ advancement grant @s only reincarnation-origins:deathsworn/stray
 function reincarnation-origins:deathsworn/summons/consume_resources
 
 # Add Minion Powers
-power grant @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/stray_powers
+power grant @e[tag=carn.deathsworn_minion,type=minecraft:stray,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/stray_powers

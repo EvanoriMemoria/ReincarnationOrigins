@@ -1,33 +1,47 @@
 {
   "type": "origins:multiple",
-  "onhit": {
-    "condition": {
-      "inverted": true,
-      "type": "origins:nbt",
-      "nbt": "{Tags:['carn.deathsworn_minion']}"
-    },
-    "type": "origins:action_on_hit",
-    "bientity_action": {
-      "type": "origins:target_action",
-      "action": {
-        "type": "origins:execute_command",
-        "command": "power grant @s reincarnation-origins:deathsworn/one_off/draw_aggro"
+  "when_hit": {
+    "type": "origins:attacker_action_when_hit",
+    "conditions": [
+      {
+        "inverted": true,
+        "type": "origins:in_tag",
+        "tag": "carn.deathsworn_minion"
+      },
+      {
+        "inverted": true,
+        "type": "origins:in_tag",
+        "tag": "carn.deathsworn"
+      },
+      {
+        "inverted": true,
+        "type": "origins:nbt",
+        "nbt": "{team:'carn.all_summoners_team'}"
       }
+    ],
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "cramming.player",
+      "inverted": true
     },
-    "cooldown": 1,
-    "hud_render": {
-      "should_render": false
+    "entity_action": {
+      "type": "origins:add_velocity",
+      "z": 1.5
     }
   },
-  "whenhit": {
-    "type": "origins:attacker_action_when_hit",
-    "entity_action": {
-      "type": "origins:execute_command",
-      "command": "power grant @s reincarnation-origins:deathsworn/one_off/draw_aggro"
-    },
-    "cooldown": 1,
-    "hud_render": {
-      "should_render": false
-    }
+  "no_damage": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 999999,
+    "effects": [
+      {
+        "effect": "minecraft:weakness",
+        "is_ambient": true,
+        "show_particles": true,
+        "show_icon": true,
+        "amplifier": 20
+      }
+    ]
   }
 }
