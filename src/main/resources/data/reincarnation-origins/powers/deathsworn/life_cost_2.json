@@ -1,14 +1,6 @@
 {
 	"type":"origins:multiple",
-	"minionless":{
-		"type":"origins:attribute",
-		"modifier":{
-			"attribute":"minecraft:generic.max_health",
-			"value":4,
-			"operation":"addition"
-		},
-		"update_health":true
-	},
+	"hidden": true,
 	"oneminion":{
 		"type":"origins:conditioned_attribute",
 		"modifier":{
@@ -19,7 +11,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":1
 		}
@@ -34,7 +26,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":2
 		}
@@ -49,7 +41,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":3
 		}
@@ -64,7 +56,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":4
 		}
@@ -79,7 +71,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":5
 		}
@@ -94,7 +86,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":6
 		}
@@ -109,7 +101,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":7
 		}
@@ -124,7 +116,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":8
 		}
@@ -139,7 +131,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":9
 		}
@@ -154,7 +146,7 @@
 		"update_health":true,
 		"condition":{
 			"type":"origins:command",
-			"command":"execute if entity @e[tag=carn.deathsworn_minion,distance=..20]",
+			"command":"execute if entity @e[tag=carn.deathsworn_minion_heart_cost_2,distance=..20]",
 			"comparison":">=",
 			"compare_to":10
 		}

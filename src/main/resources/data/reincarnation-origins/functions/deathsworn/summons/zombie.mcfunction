@@ -3,6 +3,9 @@ summon minecraft:zombie ^ ^ ^ {DeathLootTable:"minecraft:empty",Team:"carn.all_s
 advancement grant @s only reincarnation-origins:deathsworn/zombie
 advancement grant @s only reincarnation-origins:deathsworn/summon
 
+# Set Mob Stats from Item
+function reincarnation-origins:deathsworn/give_stats
+
 # Consume Resources
 function reincarnation-origins:deathsworn/summons/consume_resources
 

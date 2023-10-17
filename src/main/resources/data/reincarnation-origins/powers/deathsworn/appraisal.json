@@ -2,7 +2,7 @@
 	"type":"origins:action_over_time",
 	"entity_action":{
 		"type":"origins:execute_command",
-		"command":"title @s actionbar [{\"translate\":\"reincarnation-origins.deathsworn.mob\",\"color\":\"#FF0000\"},{\"nbt\":\"SelectedItem.tag.mob\",\"entity\":\"@s\"}]"
+		"command":"title @s actionbar [{\"translate\":\"reincarnation-origins.deathsworn.mob\",\"color\":\"#FF0000\"},{\"nbt\":\"SelectedItem.tag.mob\",\"entity\":\"@s\"},{\"translate\":\"reincarnation-origins.deathsworn.heart_cost\",{\"nbt\":\"SelectedItem.tag.heart_cost\",\"entity\":\"@s\"}]"
 	},
 	"falling_action":{
 		"type":"origins:execute_command",

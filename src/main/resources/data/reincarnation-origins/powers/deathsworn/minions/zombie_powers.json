@@ -3,22 +3,31 @@
   "when_hit": {
     "type": "origins:action_when_hit",
     "bientity_condition": {
-      "type": "origins:target_condition",
+      "type": "origins:and",
       "conditions": [
         {
-          "inverted": true,
-          "type": "origins:nbt",
-          "nbt": "{tag:'carn.deathsworn_minion'}"
+          "type": "origins:actor_condition",
+          "condition": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": "{Tags:['carn.deathsworn_minion']}"
+          }
         },
         {
-          "inverted": true,
-          "type": "origins:nbt",
-          "nbt": "{tag:'carn.deathsworn'}"
+          "type": "origins:actor_condition",
+          "condition": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": "{Tags:['carn.deathsworn']}"
+          }
         },
         {
-          "inverted": true,
-          "type": "origins:nbt",
-          "nbt": "{team:'carn.all_summoners_team'}"
+          "type": "origins:actor_condition",
+          "condition": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": "{team:'carn.all_summoners_team'}"
+          }
         }
       ]
     },

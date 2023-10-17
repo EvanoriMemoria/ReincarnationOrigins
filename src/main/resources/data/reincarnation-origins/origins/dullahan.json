@@ -1,28 +1,28 @@
 {
-    "powers": [
-        "reincarnation-origins:dullahan/daydebuffs",
-        "reincarnation-origins:dullahan/no_food",
-        "reincarnation-origins:dullahan/skull_bomb",
-        "reincarnation-origins:dullahan/nightmare_steed",
-        "reincarnation-origins:dullahan/hell_chain",
-        "reincarnation-origins:dullahan/nightbuffs",
-        "reincarnation-origins:dullahan/soul_food",
-	    "reincarnation-origins:dullahan/soul_feast",
-	    "reincarnation-origins:dullahan/lantern_kill",
-        "reincarnation-origins:dullahan/no_lantern_crafting",
-        "reincarnation-origins:dullahan/loose_bones",
-        "reincarnation-origins:dullahan/soul_seal",
-        "reincarnation-origins:dullahan/shadow",
-	    "reincarnation-origins:dullahan/particles",
-        "reincarnation-origins:dullahan/kit",
-        "reincarnation-origins:dullahan/no_food",
-        "reincarnation-origins:dullahan/tooltips"
-    ],
-    "icon": {
-        "item": "minecraft:soul_lantern"
-    },
-    "order": 20,
-    "impact": 3,
-    "name": "Dullahan",
-    "description": "An accursed headless horseman, who uses their nightmarish powers to trap the souls of their prey in lanterns."
+  "powers": [
+    "reincarnation-origins:dullahan/daydebuffs",
+    "reincarnation-origins:dullahan/no_food",
+    "reincarnation-origins:dullahan/skull_bomb",
+    "reincarnation-origins:dullahan/nightmare_steed",
+    "reincarnation-origins:dullahan/hell_chain",
+    "reincarnation-origins:dullahan/nightbuffs",
+    "reincarnation-origins:dullahan/soul_food",
+    "reincarnation-origins:dullahan/soul_feast",
+    "reincarnation-origins:dullahan/lantern_kill",
+    "reincarnation-origins:dullahan/no_lantern_crafting",
+    "reincarnation-origins:dullahan/loose_bones",
+    "reincarnation-origins:dullahan/soul_seal",
+    "reincarnation-origins:dullahan/shadow",
+    "reincarnation-origins:dullahan/particles",
+    "reincarnation-origins:dullahan/kit",
+    "reincarnation-origins:dullahan/no_food",
+    "reincarnation-origins:dullahan/tooltips"
+  ],
+  "icon": {
+    "item": "minecraft:soul_lantern"
+  },
+  "order": 20,
+  "impact": 3,
+  "name": "Dullahan",
+  "description": "An accursed headless horseman, who uses their nightmarish powers to trap the souls of their prey in lanterns."
 }

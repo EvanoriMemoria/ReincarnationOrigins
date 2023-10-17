@@ -28,12 +28,8 @@ execute if entity @s[advancements={reincarnation-origins:deathsworn/skeleton=fal
 execute if entity @s[advancements={reincarnation-origins:deathsworn/skeleton=true},nbt={SelectedItem:{tag:{mob:"Wither_Skeleton"}}}] run function reincarnation-origins:deathsworn/summons/wither_skeleton
 execute if entity @s[advancements={reincarnation-origins:deathsworn/skeleton=false},nbt={SelectedItem:{tag:{mob:"Wither_Skeleton"}}}] run w @s "You must first summon a Skeleton to learn how to create a Wither_Skeleton"
 
-execute at @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base set from entity @s SelectedItem.tag.carn_minion_health_tag
-execute at @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] Health set from entity @s SelectedItem.tag.carn_minion_health_tag
-execute at @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] IsImmuneToZombification set value 1
-
-execute run power grant @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/kill
-execute run power grant @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/deathsworn_minion_powers
+power grant @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/kill
+power grant @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/deathsworn_minion_powers
 
 # Store executing player's current deathswornID
 scoreboard players operation carn.player_start_value carn.deathswornID = @s carn.deathswornID
