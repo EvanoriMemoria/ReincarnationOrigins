@@ -1,47 +1,38 @@
 {
   "type": "origins:multiple",
   "when_hit": {
-    "type": "origins:attacker_action_when_hit",
-    "conditions": [
-      {
-        "inverted": true,
-        "type": "origins:in_tag",
-        "tag": "carn.deathsworn_minion"
-      },
-      {
-        "inverted": true,
-        "type": "origins:in_tag",
-        "tag": "carn.deathsworn"
-      },
-      {
-        "inverted": true,
-        "type": "origins:nbt",
-        "nbt": "{Team:'carn.all_summoners_team'}"
-      }
-    ],
+    "type": "origins:action_when_hit",
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "conditions": [
+        {
+          "inverted": true,
+          "type": "origins:nbt",
+          "nbt": "{tag:'carn.deathsworn_minion'}"
+        },
+        {
+          "inverted": true,
+          "type": "origins:nbt",
+          "nbt": "{tag:'carn.deathsworn'}"
+        },
+        {
+          "inverted": true,
+          "type": "origins:nbt",
+          "nbt": "{team:'carn.all_summoners_team'}"
+        }
+      ]
+    },
     "damage_condition": {
       "type": "origins:name",
       "name": "cramming.player",
       "inverted": true
     },
-    "entity_action": {
-      "type": "origins:add_velocity",
-      "z": 1.5
-    }
-  },
-  "no_damage": {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 1,
-    "max_stacks": 1,
-    "duration_per_stack": 999999,
-    "effects": [
-      {
-        "effect": "minecraft:weakness",
-        "is_ambient": true,
-        "show_particles": true,
-        "show_icon": true,
-        "amplifier": 20
+    "bientity_action": {
+      "type": "origins:damage",
+      "amount": 4,
+      "source": {
+        "name": "thorns"
       }
-    ]
+    }
   }
 }

@@ -1,47 +1,32 @@
 {
   "type": "origins:multiple",
-  "when_hit": {
-    "type": "origins:attacker_action_when_hit",
-    "conditions": [
-      {
-        "inverted": true,
-        "type": "origins:in_tag",
-        "tag": "carn.deathsworn_minion"
-      },
-      {
-        "inverted": true,
-        "type": "origins:in_tag",
-        "tag": "carn.deathsworn"
-      },
-      {
-        "inverted": true,
-        "type": "origins:nbt",
-        "nbt": "{team:'carn.all_summoners_team'}"
-      }
-    ],
-    "damage_condition": {
-      "type": "origins:name",
-      "name": "cramming.player",
-      "inverted": true
-    },
-    "entity_action": {
-      "type": "origins:add_velocity",
-      "z": 1.5
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": false,
+      "bar_index": 3
     }
   },
-  "no_damage": {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 1,
-    "max_stacks": 1,
-    "duration_per_stack": 999999,
-    "effects": [
-      {
-        "effect": "minecraft:weakness",
-        "is_ambient": true,
-        "show_particles": true,
-        "show_icon": true,
-        "amplifier": 20
-      }
-    ]
+  "trigger": {
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+      "type": "origins:trigger_cooldown",
+      "power": "reincarnation-origins:deathsworn/minions/wither_skeleton_powers_cooldown"
+    }
+  },
+  "timer_check": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "kill @s"
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "reincarnation-origins:deathsworn/minions/wither_skeleton_powers_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    }
   }
 }

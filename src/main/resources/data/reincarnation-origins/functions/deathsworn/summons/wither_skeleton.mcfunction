@@ -4,3 +4,6 @@ advancement grant @s only reincarnation-origins:deathsworn/wither_skeleton
 
 # Consume Resources
 function reincarnation-origins:deathsworn/summons/consume_resources
+
+# Add Minion Powers
+power grant @e[tag=carn.deathsworn_minion,type=minecraft:wither_skeleton,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/wither_skeleton_powers
