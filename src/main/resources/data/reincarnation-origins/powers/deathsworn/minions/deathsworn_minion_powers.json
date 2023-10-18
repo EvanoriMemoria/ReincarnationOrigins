@@ -12,7 +12,14 @@
       "value": 0
     }
   },
-  "fall": {
+  "suffocate_immune": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "inWall"
+    }
+  },
+  "fall_immune": {
     "type": "origins:invulnerability",
     "damage_condition": {
       "type": "origins:from_falling"

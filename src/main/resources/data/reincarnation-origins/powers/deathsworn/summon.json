@@ -11,7 +11,7 @@
     },
     "else_action": {
       "type": "origins:execute_command",
-      "command": "w @s You do not have enough SOUL to summon this minion."
+      "command": "title @s title {\"translate\":\"reincarnation-origins.deathsworn.soul_requirement\",\"color\":\"red\",\"bold\":true}"
     },
     "condition": {
       "type": "origins:resource",
