@@ -11,7 +11,7 @@
     },
     "else_action": {
       "type": "origins:execute_command",
-      "command": "title @s title {\"translate\":\"reincarnation-origins.deathsworn.soul_requirement\",\"color\":\"red\",\"bold\":true}"
+      "command": "title @s actionbar {\"translate\":\"reincarnation-origins.deathsworn.soul_requirement\",\"color\":\"red\",\"bold\":true}"
     },
     "condition": {
       "type": "origins:resource",

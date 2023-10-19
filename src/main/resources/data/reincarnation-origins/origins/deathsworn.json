@@ -1,7 +1,6 @@
 {
   "powers": [
     "origins:burn_in_daylight",
-    "reincarnation-origins:deathsworn/appraisal",
     "reincarnation-origins:deathsworn/unsummon",
     "reincarnation-origins:deathsworn/command",
     "reincarnation-origins:deathsworn/life_cost_1",
