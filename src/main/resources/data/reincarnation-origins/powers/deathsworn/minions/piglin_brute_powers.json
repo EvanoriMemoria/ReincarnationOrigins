@@ -8,6 +8,13 @@
       "bar_index": 3
     }
   },
+  "initial_cooldown": {
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+      "type": "origins:trigger_cooldown",
+      "power": "reincarnation-origins:deathsworn/minions/wither_skeleton_powers_cooldown"
+    }
+  },
   "timer_check": {
     "type": "origins:action_over_time",
     "entity_action": {
