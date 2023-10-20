@@ -31,6 +31,7 @@ execute if entity @s[advancements={reincarnation-origins:deathsworn/skeleton=fal
 # All minions get these powers
 power grant @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/kill
 power grant @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/deathsworn_minion_powers
+power grant @e[tag=carn.deathsworn_minion,distance=..1,sort=nearest,limit=1] reincarnation-origins:deathsworn/minions/random_size
 
 # Store executing player's current deathswornID
 scoreboard players operation carn.player_start_value carn.deathswornID = @s carn.deathswornID

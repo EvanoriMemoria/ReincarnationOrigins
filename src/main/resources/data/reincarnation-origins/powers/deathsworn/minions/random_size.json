@@ -1,0 +1,71 @@
+{
+  "type": "origins:action_on_callback",
+  "entity_action_gained": {
+    "type": "origins:choice",
+    "actions": [
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 0.25 @s"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 0.50 @s"
+        },
+        "weight": 20
+      },
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 0.75 @s"
+        },
+        "weight": 24
+      },
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 0.85 @s"
+        },
+        "weight": 28
+      },
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 0.95 @s"
+        },
+        "weight": 32
+      },
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 1.05 @s"
+        },
+        "weight": 28
+      },
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 1.15 @s"
+        },
+        "weight": 24
+      },
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 1.25 @s"
+        },
+        "weight": 20
+      },
+      {
+        "element": {
+          "type": "origins:execute_command",
+          "command": "scale set pehkui:base 1.50 @s"
+        },
+        "weight": 1
+      }
+    ]
+  }
+}
