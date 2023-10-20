@@ -1,7 +1,7 @@
 {
 	"values":[
 		"#minecraft:skeletons",
-        "minecraft:stray",
+		"minecraft:stray",
 		"minecraft:creeper",
 		"minecraft:drowned",
 		"minecraft:husk",
@@ -9,6 +9,8 @@
 		"minecraft:pillager",
 		"minecraft:vindicator",
 		"minecraft:zombie",
-		"minecraft:zombified_piglin"
+		"minecraft:zombified_piglin",
+		"minecraft:guardian",
+		"minecraft:elder_guardian"
 	]
 }

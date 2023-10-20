@@ -48,6 +48,8 @@
 	"power.reincarnation-origins.deathsworn/summon.name":"Demonic Pact",
 	"power.reincarnation-origins.deathsworn/take_soul.description":"When at least 2 minions are nearby, they will sacrifice themselves to protect you from a fatal hit, dying to do so.",
 	"power.reincarnation-origins.deathsworn/take_soul.name":"Power Siphon",
+	"power.reincarnation-origins.deathsworn/recall_minion.name":"Recall",
+	"power.reincarnation-origins.deathsworn/recall_minion.description":"Recall all of your minions, instantly teleporting them to you.",
 	"reincarnation-origins.advancements.brute.description":"Summon a Piglin Brute in the overworld. Submit! will now deal even more damage.",
 	"reincarnation-origins.advancements.brute.name":"Devil's Axe",
 	"reincarnation-origins.advancements.immortal.description":"Reclaim your life-force from nearby minions, preventing your death.",

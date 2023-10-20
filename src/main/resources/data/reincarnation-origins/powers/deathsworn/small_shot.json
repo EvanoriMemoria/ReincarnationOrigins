@@ -71,5 +71,5 @@
 		"command_step":0.25
 	},
 	"cooldown":40,
-	"key":"key.saveToolbarActivator"
+	"key": "key.origins.primary_active"
 }
