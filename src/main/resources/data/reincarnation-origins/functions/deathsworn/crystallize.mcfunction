@@ -52,6 +52,9 @@ execute if entity @s[type=minecraft:piglin_brute] run data modify entity @e[tag=
 execute if entity @s[type=minecraft:piglin_brute] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.carn_heart_cost set value 3
 execute if entity @s[type=minecraft:piglin_brute] run data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.display.Name set value '{"translate":"reincarnation-origins.deathsworn.piglin_brute_heart","color":"dark_purple","italic":"false"}'
 
-data modify entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.display.Lore set value ['{"nbt":"Item.tag.carn_heart_cost","entity":"@e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1]"}']
+data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_cost:1}}},sort=nearest,limit=1] Item.tag.display.Lore set value ['{"text":"Heart Cost: 1","color":"aqua","italic":"false"}']
+data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_cost:2}}},sort=nearest,limit=1] Item.tag.display.Lore set value ['{"text":"Heart Cost: 2","color":"aqua","italic":"false"}']
+data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_cost:3}}},sort=nearest,limit=1] Item.tag.display.Lore set value ['{"text":"Heart Cost: 3","color":"aqua","italic":"false"}']
+data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_cost:4}}},sort=nearest,limit=1] Item.tag.display.Lore set value ['{"text":"Heart Cost: 4","color":"aqua","italic":"false"}']
 
 execute store result entity @e[tag=Petrified_Heart,distance=..1,sort=nearest,limit=1] Item.tag.carn_minion_health_tag float 1 run scoreboard players get @s carn.minion_health
