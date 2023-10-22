@@ -5,6 +5,14 @@ execute if entity @s[advancements={reincarnation-origins:deathsworn/petri=true},
 execute if entity @s[advancements={reincarnation-origins:deathsworn/zombie=true},nbt={SelectedItem:{tag:{mob:"Drowned"}}}] run function reincarnation-origins:deathsworn/summons/drowned
 execute if entity @s[advancements={reincarnation-origins:deathsworn/zombie=false},nbt={SelectedItem:{tag:{mob:"Drowned"}}}] run title @s actionbar {"translate":"reincarnation-origins.deathsworn.zombie_requirement","color":"red","bold":true}
 
+# Mighty Drowned
+execute if entity @s[advancements={reincarnation-origins:deathsworn/drowned=true},nbt={SelectedItem:{tag:{mob:"Mighty_Drowned"}}}] run function reincarnation-origins:deathsworn/summons/mighty_drowned
+execute if entity @s[advancements={reincarnation-origins:deathsworn/drowned=false},nbt={SelectedItem:{tag:{mob:"Mighty_Drowned"}}}] run title @s actionbar {"translate":"reincarnation-origins.deathsworn.drowned_requirement","color":"red","bold":true}
+
+# Ancient Drowned
+execute if entity @s[advancements={reincarnation-origins:deathsworn/mighty_drowned=true},nbt={SelectedItem:{tag:{mob:"Ancient_Drowned"}}}] run function reincarnation-origins:deathsworn/summons/ancient_drowned
+execute if entity @s[advancements={reincarnation-origins:deathsworn/mighty_drowned=false},nbt={SelectedItem:{tag:{mob:"Ancient_Drowned"}}}] run title @s actionbar {"translate":"reincarnation-origins.deathsworn.mighty_drowned_requirement","color":"red","bold":true}
+
 # Husk
 execute if entity @s[advancements={reincarnation-origins:deathsworn/zombie=true},nbt={SelectedItem:{tag:{mob:"Husk"}}}] run function reincarnation-origins:deathsworn/summons/husk
 execute if entity @s[advancements={reincarnation-origins:deathsworn/zombie=false},nbt={SelectedItem:{tag:{mob:"Husk"}}}] run title @s actionbar {"translate":"reincarnation-origins.deathsworn.zombie_requirement","color":"red","bold":true}
