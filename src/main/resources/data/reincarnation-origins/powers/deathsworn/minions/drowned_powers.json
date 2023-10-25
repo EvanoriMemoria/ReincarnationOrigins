@@ -5,7 +5,10 @@
     "effect": {
       "effect": "minecraft:speed",
       "duration": 22,
-      "amplifier": 5
+      "amplifier": 5,
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": false
     }
   },
   "interval": 20,
