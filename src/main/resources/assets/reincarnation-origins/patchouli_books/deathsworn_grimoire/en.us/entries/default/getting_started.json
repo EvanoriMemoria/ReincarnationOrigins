@@ -1,0 +1,19 @@
+{
+  "name": "Test Entry",
+  "icon": "minecraft:writable_book",
+  "category": "reincarnation-origins:default_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Welcome! If you are just getting started on your deathly journey as an all-powerful Necromancer, this is the place for you!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "To get started, all you need to do is kill some enemies to fill your SOUL bar (the one above your food). If you kill a Zombie or Skeleton you will extract their Petrified Hearts. Petrified Hearts store the data of the minion, you can use these and a little bit of your own SOUL to summon your very own minions!\nOf course you will need to start with the basic Zombie or Skeleton before moving on to more difficult creations.\nEvery minion has costs a bit of your lifeforce as well, reducing your maximum health by the amount shown on the Petrified Heart as 'Heart Cost'."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "All minions will teleport to you when further than 18 blocks. Additionally, you have a keybind to teleport all summoned minions to your location.\nYou can shift-left click most minions to extract it's heart again."
+    }
+  ]
+}

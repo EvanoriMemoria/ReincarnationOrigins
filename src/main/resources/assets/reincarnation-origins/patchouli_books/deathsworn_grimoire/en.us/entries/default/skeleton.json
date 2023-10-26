@@ -1,0 +1,19 @@
+{
+  "name": "Skelton",
+  "icon": "minecraft:writable_book",
+  "category": "reincarnation-origins:default_category",
+  "advancement": "reincarnation-origins:deathsworn/petri",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Skeletons can't take much punishment, but they do much more damage than their Zombie counterparts, and at range no less!\nHeart Obtained From: Skeleton"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:skeleton{HandItems:[{id:minecraft:bow,Count:1b}],ArmorItems:[{},{},{},{id:iron_helmet,Count:1}]}",
+      "name": "Skeleton Minion",
+      "text": "",
+      "rotate": false
+    }
+  ]
+}

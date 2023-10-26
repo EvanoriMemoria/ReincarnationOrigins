@@ -1,0 +1,19 @@
+{
+  "name": "Zombie",
+  "icon": "minecraft:writable_book",
+  "category": "reincarnation-origins:default_category",
+  "advancement": "reincarnation-origins:deathsworn/petri",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Zombies are slow and tanky. They do very little damage, but will soak up a great deal for you.\nHeart Obtained From: Zombie"
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "minecraft:zombie{ArmorItems:[{},{},{},{id:iron_helmet,Count:1}]}",
+      "name": "Zombie Minion",
+      "text": "",
+      "rotate": false
+    }
+  ]
+}
