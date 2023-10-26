@@ -54,13 +54,13 @@
 	"power.reincarnation-origins.deathsworn/recall_minion.name":"Recall",
 	"power.reincarnation-origins.deathsworn/recall_minion.description":"Recall all of your minions, instantly teleporting them to you.",
 	"reincarnation-origins.advancements.brute.description":"Summon a Piglin Brute in the overworld. Submit! will now deal even more damage.",
-	"reincarnation-origins.advancements.brute.name":"Devil's Axe",
+	"reincarnation-origins.advancements.brute.name":"Summon a Piglin Brute",
 	"reincarnation-origins.advancements.immortal.description":"Reclaim your life-force from nearby minions, preventing your death.",
 	"reincarnation-origins.advancements.immortal.name":"Soul Reclamation",
 	"reincarnation-origins.advancements.kill.description":"Let your minion score a kill.",
 	"reincarnation-origins.advancements.kill.name":"Little Minion's First Kill!",
 	"reincarnation-origins.advancements.petri.description":"Obtain your first petrified heart from a hostile mob.",
-	"reincarnation-origins.advancements.petri.name":"Heart-Shaped Object",
+	"reincarnation-origins.advancements.petri.name":"Actual Artificial Hearts",
 	"reincarnation-origins.advancements.root.description":"Choose the Deathsworn origin.",
 	"reincarnation-origins.advancements.root.name":"Deathsworn",
 	"reincarnation-origins.advancements.skeleton.description":"The Path of Bone is all about skeletons, generally more damage-focused range oriented summons. Summon a generic Skeleton to get started.",
@@ -78,9 +78,9 @@
 	"reincarnation-origins.advancements.husk.description":"They're kinda dry and crusty, but they give nearby enemies weakness, blindness, and wither when they're hit.",
 	"reincarnation-origins.advancements.husk.name":"Husk",
 	"reincarnation-origins.advancements.zombified_piglin.description":"They're a tank bruiser with decent damage. Enemies slain by this minion drop more loot.",
-	"reincarnation-origins.advancements.zombified_piglin.name":"Zombified Piglin",
+	"reincarnation-origins.advancements.zombified_piglin.name":"Summon a Zombified Piglin",
 	"reincarnation-origins.advancements.summon.description":"The Path of Bone and the Path of Flesh, Raise minions from either one!",
 	"reincarnation-origins.advancements.summon.name":"First Summon!",
 	"reincarnation-origins.advancements.wither_skeleton.description":"Summon a Wither Skeleton. They're excellent bruisers, capable of both taking and dishing out damage in melee. Though they are weak to ranged damage.",
-	"reincarnation-origins.advancements.wither_skeleton.name":"Create a Wither Skeleton"
+	"reincarnation-origins.advancements.wither_skeleton.name":"Summon a Wither Skeleton"
 }
