@@ -41,6 +41,10 @@ data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_hear
 data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_tier:4}}},sort=nearest,limit=1] Item.tag.display.Lore set value ['{"text":"Tier 4","color":"dark_purple","italic":"false"}']
 data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_tier:5}}},sort=nearest,limit=1] Item.tag.display.Lore set value ['{"text":"Tier 4","color":"gold","italic":"false"}']
 
+# Enchantment Glint for tier 4 and 5
+data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_tier:4}}},sort=nearest,limit=1] Item.Enchantments set value ['{}']
+data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_tier:5}}},sort=nearest,limit=1] Item.Enchantments set value ['{}']
+
 # Heart Cost Lore Data
 data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_cost:0}}},sort=nearest,limit=1] Item.tag.display.Lore append value '{"text":"Heart Cost: 0","color":"red","italic":"false"}'
 data modify entity @e[tag=Petrified_Heart,distance=..1,nbt={Item:{tag:{carn_heart_cost:1}}},sort=nearest,limit=1] Item.tag.display.Lore append value '{"text":"Heart Cost: 1","color":"red","italic":"false"}'
