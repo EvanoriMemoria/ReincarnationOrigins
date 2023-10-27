@@ -2,7 +2,8 @@
   "name": "Grimoire of the Deathsworn",
   "landing_text": "Your guide to be the Ultimate Necromancer",
   "version": 1,
-  "creative_tab": "minecraft:tools_and_utilities",
+  "creative_tab": "minecraft:combat",
+  "model": "reincarnation-origins:deathsworn_grimoire",
   "pamphlet": true,
   "use_resource_pack": true
 }
